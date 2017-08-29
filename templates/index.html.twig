@@ -1,0 +1,211 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 bg-dark text-white p-4">
+                <div class="text-center mb-5">
+                    <img src="{{ asset('images/vaclav.jpg') }}" class="rounded-circle img-fluid mb-3" width="40%" alt="Václav Cenker">
+                    <h1 class="h2 text-yellow">Václav Cenker</h1>
+                </div>
+                <section class="mb-5">
+                    <h2 class="h4 text-white text-uppercase">
+                        <i class="fa fa-fw fa-cogs rounded-circle bg-yellow text-dark p-2 mr-2" aria-hidden="true"></i>
+                        {{ 'knowledge'|trans }}
+                    </h2>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            Microsoft Office
+                            <div class="progress rounded-0">
+                                <div class="progress-bar bg-yellow" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            Adobe Id, Ai, Ps
+                            <div class="progress rounded-0">
+                                <div class="progress-bar bg-yellow" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            Cinema 4D
+                            <div class="progress rounded-0">
+                                <div class="progress-bar bg-yellow" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            HTML, CSS
+                            <div class="progress rounded-0">
+                                <div class="progress-bar bg-yellow" role="progressbar" style="width: 65%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="mb-5">
+                    <h2 class="h4 text-white text-uppercase">
+                        <i class="fa fa-fw fa-language rounded-circle bg-yellow text-dark p-2 mr-2" aria-hidden="true"></i>
+                        {{ 'languages'|trans }}
+                    </h2>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li class="row">
+                            <div class="col">
+                                {{ 'english'|trans }}
+                            </div>
+                            <div class="col">
+                                B2
+                            </div>
+                        </li>
+                        <li class="row">
+                            <div class="col">
+                                {{ 'german'|trans }}
+                            </div>
+                            <div class="col">
+                                A2
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="h4 text-white text-uppercase">
+                        <i class="fa fa-fw fa-clock-o rounded-circle bg-yellow text-dark p-2 mr-2" aria-hidden="true"></i>
+                        Zájmy a záliby
+                    </h2>
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li>Skaut</li>
+                        <li>Vysokohorská turistika</li>
+                        <li>Weighted calisthenics</li>
+                        <li>Florbal</li>
+                        <li>Volejbal</li>
+                        <li>Cyklistika</li>
+                        <li>Origami</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="col-md-8 bg-faded p-4">
+                <a class="pull-right" href="{{ path('homepage', { '_locale': app.locale == 'cs' ? 'en' : 'cs' }) }}">{{ app.locale == 'cs' ? 'English' : 'Česky' }}</a>
+                <section class="mb-5">
+                    <h2 class="h4 text-uppercase">
+                        <i class="fa fa-fw fa-user rounded-circle bg-warning text-white p-2 mr-2" aria-hidden="true"></i>
+                        {{ 'personal_info'|trans }}
+                    </h2>
+                    <hr>
+                    <address>
+                        <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+                        Doloplazy 59, 783 56 Doloplazy, Česká republika
+                    </address>
+                    <span class="mr-4">
+                        <i class="fa fa-fw fa-phone mb-3" aria-hidden="true"></i>
+                        <a href="tel:+420735077292">735 077 292</a>
+                    </span>
+                    <br class="d-sm-none">
+                    <span class="mr-4">
+                        <i class="fa fa-fw fa-envelope-o mb-3" aria-hidden="true"></i>
+                        <a href="mailto:vaclav.cenker@gmail.com">vaclav.cenker@gmail.com</a>
+                    </span>
+                    <br class="d-sm-none">
+                    <span class="mr-4">
+                        <i class="fa fa-fw fa-calendar-o" aria-hidden="true"></i>
+                        08. 07. 1997
+                    </span>
+                </section>
+                <section class="mb-5">
+                    <h2 class="h4 text-uppercase">
+                        <i class="fa fa-fw fa-briefcase rounded-circle bg-warning text-white p-2 mr-2" aria-hidden="true"></i>
+                        Pracovní zkušenosti
+                    </h2>
+                    <hr>
+                    <ul class="list-connected list-connected-warning">
+                        <li>
+                            <p class="text-warning">
+                                <strong>2017</strong>
+                            </p>
+                            <p>
+                                <strong>Authentica</strong> / 3D/2D grafik, designer (brigáda)
+                            </p>
+                            <p class="mb-0 pb-3">
+                                Návrh a tvorba grafiky POS medií (stojany a regály). Vizualizace těchto návrhu (3D modelování a renderování). Využití softwaru: Adobe InDesign, Adobe Illjstrator, Adobe Photoshop, Ciname 4D.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-warning">
+                                <strong>2013–2017</strong>
+                            </p>
+                            <p>
+                                <strong>VNP</strong> / 3D/2D grafik (dlouhodobá spolupráce)
+                            </p>
+                            <p class="mb-0 pb-3">
+                                Vizualizace nábytku, interiérů, vytváření plánků a postupů pro sestavování skříní. Využití softwaru: Adobe InDesign, Adobe Illustrator, Adobe Photoshop, Cinema 4D, Marvelous Designer.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-warning">
+                                <strong>2016</strong>
+                            </p>
+                            <p>
+                                <strong>Patriot Reality</strong> / 3D grafik (jednorázová zakázka)
+                            </p>
+                            <p class="mb-0 pb-3">
+                                Vizualizace exteriéru a interiéru. Využití softwaru: Adobe Photoshop, Cinema 4D, Marvelous Designer
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-warning">
+                                <strong>2015</strong>
+                            </p>
+                            <p>
+                                <strong>Gymnazium Olomouc – Hejčín</strong> / 3D/2D grafik (nezisková činnost)
+                            </p>
+                            <p class="mb-0 pb-3">
+                                Vizualizace nového sportovního areálu školy.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-warning">
+                                <strong>Průběžně</strong>
+                            </p>
+                            <p>
+                                <strong>Pomocné stavení práce</strong> / jednorázové většinou neziskové brigády
+                            </p>
+                            <p class="mb-0 pb-3">
+                                Úprava terénu, betonování, nahazování omítky.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+                <section class="mb-5">
+                    <h2 class="h4 text-uppercase">
+                        <i class="fa fa-fw fa-graduation-cap rounded-circle bg-warning text-white p-2 mr-2" aria-hidden="true"></i>
+                        Vzdělání
+                    </h2>
+                    <hr>
+                    <ul class="list-connected list-connected-warning">
+                        <li>
+                            <p class="text-warning">
+                                <strong>2013–2017</strong>
+                            </p>
+                            <p>
+                                <strong>Gymnazium Olomouc – Hejčín</strong> / 4 leté gymnazium
+                            </p>
+                            <p class="mb-0 pb-3">
+                                Všeobecně zaměřené vzdělání s maturitou.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-warning">
+                                <strong>2017–2020</strong>
+                            </p>
+                            <p>
+                                <strong>Univerzita Palackého v Olomouci</strong> / diskrétní matematika
+                            </p>
+                            <p class="mb-0 pb-3">
+                                Algebra, geometrie, matematická analýza, základy kombinatoriky, grafy a sítě, automaty, lineární programování apod.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+{% endblock %}
