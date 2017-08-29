@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 
     // Paths
     paths: {
-      src: 'src',
+      src: '.',
       dist: 'web',
       bower: 'bower_components',
       temp: '.tmp',
