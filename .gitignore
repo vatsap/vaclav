@@ -5,3 +5,6 @@
 /web/fonts/*
 /web/images/*
 /web/js/*
+/var/cache/*
+/var/logs/*
+/vendor/
