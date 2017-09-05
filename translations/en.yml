@@ -1,18 +1,18 @@
+cycling: Cycling
+education: Education
 error.client: An error occurred on the client.
 error: An error occurred.
 error.internal: Internal server error.
 error.not_found: Page not found.
 error.server: An error occurred on the server.
+experiences: Experiences
+floorball: Floorball
+hobbies: Hobbies and interests
+hiking: Hiking
 knowledge: Knowledge
 languages: Languages
 personal_info: Personal information
-hobbies: Hobbies and interests
-scouting: Scouting
-hiking: Hiking
-floorball: Floorball
-volleyball: Volleyball
-cycling: Cycling
-experiences: Experiences
 post1: 3D/2D graphic designer
 post2: 3D graphic designer
-education: Education
+scouting: Scouting
+volleyball: Volleyball
