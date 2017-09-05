@@ -1,7 +1,7 @@
 cycling: Cyklistika
 education: Vzdělání
-error.client: Na stránce došlo k chybě.
 error: Došlo k chybě.
+error.client: Na stránce došlo k chybě.
 error.internal: Chyba serveru.
 error.not_found: Stránka nenalezena.
 error.server: Na serveru došlo k chybě.
