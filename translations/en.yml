@@ -1,7 +1,7 @@
 cycling: Cycling
 education: Education
-error.client: An error occurred on the client.
 error: An error occurred.
+error.client: An error occurred on the client.
 error.internal: Internal server error.
 error.not_found: Page not found.
 error.server: An error occurred on the server.
