@@ -1,12 +1,22 @@
 cycling: Cyklistika
+discrete-math: diskrétní matematika
 education: Vzdělání
+edu-hejcin: Všeobecně zaměřené vzdělání s maturitou.
+edu-up: Algebra, geometrie, matematická analýza, základy kombinatoriky, grafy a sítě, automaty, lineární programování apod.
+english: Angličtina
 error: Došlo k chybě.
 error.client: Na stránce došlo k chybě.
 error.internal: Chyba serveru.
 error.not_found: Stránka nenalezena.
 error.server: Na serveru došlo k chybě.
 experiences: Pracovní zkušenosti
+exp-authentica: Návrh a tvorba grafiky POS medií (stojany a regály). Vizualizace těchto návrhů (3D modelování a renderování). Využití softwaru: Adobe InDesign, Adobe Illustrator, Adobe Photoshop, Cinema 4D.
+exp-hejcin: Vizualizace nového sportovního areálu školy. Využití softwaru: Adobe Photoshop, Cinema 4D.
+exp-patriot: Vizualizace exteriéru a interiéru. Využití softwaru: Adobe Photoshop, Cinema 4D, Marvelous Designer.
+exp-vnp: Vizualizace nábytku, interiérů, vytváření plánků a postupů pro sestavování skříní. Využití softwaru: Adobe InDesign, Adobe Illustrator, Adobe Photoshop, Cinema 4D, Marvelous Designer.
 floorball: Florbal
+german: Němčina
+grammar-school: 4 leté gymnázium
 hiking: Vysokohorská turistika
 hobbies: Zájmy a záliby
 knowledge: Znalosti
@@ -15,4 +25,5 @@ personal_info: Osobní údaje
 post1: 3D/2D grafik, designer
 post2: 3D grafik, designer
 scouting: Skaut
+up: Univerzita Palackého v Olomouci
 volleyball: Volejbal
