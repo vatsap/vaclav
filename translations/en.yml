@@ -1,12 +1,22 @@
 cycling: Cycling
+discrete-math: discrete mathematics
 education: Education
+edu-hejcin: General education with graduation.
+edu-up: Algebra, geometry, mathematical analysis, fundamentals of combinatorics, graphs and networks, automata, linear programming, etc.
+english: English
 error: An error occurred.
 error.client: An error occurred on the client.
 error.internal: Internal server error.
 error.not_found: Page not found.
 error.server: An error occurred on the server.
 experiences: Experiences
+exp-authentica: Designing store POS media. Visualization of POS media design, office furniture and interiors. Used software: Adobe InDesign, Adobe Illustrator, Adobe Photoshop, Cinema 4D.
+exp-hejcin: Visualization of the new sports facility of the school. Used software: Adobe Photoshop, Cinema 4D.
+exp-patriot: Interior and exterior visualization. Used software: Adobe Photoshop, Cinema 4D, Marvelous Designer.
+exp-vnp: Visualization of furniture, interiors. Designing schema of furniture assembling. Used software: Adobe InDesign, Adobe Illustrator, Adobe Photoshop, Cinema 4D, Marvelous Designer.
 floorball: Floorball
+grammar-school: grammar schoold
+german: German
 hiking: Hiking
 hobbies: Hobbies and interests
 knowledge: Knowledge
@@ -15,4 +25,5 @@ personal_info: Personal information
 post1: 3D/2D graphic designer
 post2: 3D graphic designer
 scouting: Scouting
+up: Palacký University Olomouc
 volleyball: Volleyball
